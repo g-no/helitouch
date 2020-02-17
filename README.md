@@ -11,11 +11,15 @@ npm i tabris-cli -g
 Then in the project directory, type:
 
 ```
+npm install
+```
+to install the tabris module (first time only), then type:
+
+```
 npm start
 ```
 
-
-This will start a Tabris.js code server at a free port and print its URL to the console. The app code can then be [side-loaded](https://tabrisjs.com/documentation/3.3/developer-app.html#run-your-app) in the [developer app](https://tabrisjs.com/documentation/3.3/developer-app.html) by entering that URL.
+to start a Tabris.js code server at a free port and print its URL to the console. The app code can then be [side-loaded](https://tabrisjs.com/documentation/3.3/developer-app.html#run-your-app) in the [developer app](https://tabrisjs.com/documentation/3.3/developer-app.html) by entering that URL.
 
 Alternatively you can also call the Tabris CLI directly:
 
